@@ -3,7 +3,6 @@ import Bio from './pages/Bio';
 import Contact from './pages/Contact';
 import Journey from './pages/Journey';
 import Projects from './pages/Projects';
-import MarqueeMenu from './components/marquee menu/marqueeMenu.jsx'
 import './index.css';
 
 function App() {

@@ -5,8 +5,6 @@ import imgQuote from "../asset/project-pic/mouth.jpg";
 import imgHm from "../asset/project-pic/clothes shop.jpg";
 import imgSong from "../asset/project-pic/song.jpg";
 import imgMovie from "../asset/project-pic/cinema.jpg";
-import { Link } from "react-router-dom";
-
 
 const projectData = [
   { imgSrc: imgHm , alt: "h&m", title: "h&m-clone", to:'https://hm-clone-website.netlify.app/'},
