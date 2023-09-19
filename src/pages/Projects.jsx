@@ -32,24 +32,24 @@ const Projects = () => {
       <div className=" hidden text-[10px] font-medium row-start-2 row-span-4 col-start-1 col-span-2 bg-gray text-black border-b-8 border-black p-4 sm:text-sm sm:block md:text-md md:p-8 lg:text-lg ">Let's blend creativity and technology, crafting a visually captivating experience for users. Join me on this journey as we sculpt pixels into beautiful designs and weave user-friendly interfaces. Together, we'll unravel the mysteries of front-end artistry, making your online presence truly unforgettable.</div>
 
       <div className="row-start-2 row-span-4 col-start-1 col-span-6 bg-white sm:col-start-3 ">
-                <div className="relative w-full h-full whitespace-nowrap border-b-8 sm:border-l-8 border-black">
+                <div className="relative w-full h-full whitespace-nowrap border-b-8  sm:border-l-8 border-black">
                     <BiSolidChevronLeftCircle
                         onClick={handleSlideRight}
                         size={40}
-                        className="rounded-full absolute top-[50%] cursor-pointer z-10"
+                        className="rounded-full absolute top-[50%] cursor-pointer z-10 text-black"
                     />
                     <div id="slider" ref={sliderRef} className="w-full h-full flex flex-row overflow-x-scroll scroll-smooth scrollbar-hide">
                         {projectData.map(project => (
-                           <div key={project.title} className="w-[300px] h-full shrink-0 border-r-4 border-black">
-                            <a href={project.to}><img className="border-b-4 border-black" src={project.imgSrc} alt={project.alt} /></a> 
-                                <h1 className="text-black text-3xl w-full text-center">{project.title}</h1>
+                           <div key={project.title} className="w-[300px] h-full shrink-0 border-r-4 border-black flex flex-col justify-start items-center ">
+                            <a href={project.to}><img className="border-b-4 border-t-4 border-black" src={project.imgSrc} alt={project.alt} /></a> 
+                            <h1 className="flex justify-center items-center text-black text-3xl w-full h-full">{project.title}</h1>
                             </div>
                         ))}
                     </div>
                     <BiSolidChevronRightCircle
                         onClick={handleSlideLeft}
                         size={40}
-                        className="absolute rounded-full top-[50%] right-0 cursor-pointer z-10"
+                        className="absolute rounded-full top-[50%] right-0 cursor-pointer z-10  text-black"
                     />
                 </div>
       </div>

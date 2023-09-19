@@ -13,7 +13,7 @@ const countries = [
     },
     {
         name: 'ITALY',
-        description: "Iran was my starting point, where I laid the foundation for my architectural career with a bachelor's degree.",
+        description: "My journey took me to Italy, where I continued to explore architecture and successfully completed my master's degree.",
         img: italyImg
     },
     {
@@ -57,7 +57,7 @@ const Journey = () => {
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1, ease: [0.43, 0.13, 0.23, 0.96] }}
                                 >
-                                    <img src={country.img} className="absolute bg-orange border-4 border-white top-0 right-0 z-10 sm:scale-75" alt={country.name.toLowerCase()} />
+                                    <img src={country.img} className="absolute bg-orange border-4 border-white top-0 right-0 z-10 h-full w-full object-top object-cover sm:h-auto sm:scale-75" alt={country.name.toLowerCase()} />
                                 </motion.div>
                             )}
                         </div>
