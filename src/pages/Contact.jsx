@@ -17,7 +17,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/parisa-makarian?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2FO%2Bo4NzQoGAI%2Bw1Y1LSZw%3D%3D"><img className="scale-75 hover:animate-spin" src={linkedin} alt="LinkedIn" /></a>
           <a href="https://github.com/ParisaMak"><img className="scale-75 hover:animate-spins" src={github} alt="GitHub" /></a> 
           <a href = "mailto: parisa.makariann@gmail.com"><img className="scale-75 hover:animate-spin" src={email} alt="Email" /></a>
-          <a href="/CV2.pdf" target="_blank" ><img className="scale-75 hover:animate-spin" src={cv} alt="cv" /></a>
+          <a href="/CV.pdf" target="_blank" ><img className="scale-75 hover:animate-spin" src={cv} alt="cv" /></a>
           
         </div>
       </div>
