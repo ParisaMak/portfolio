@@ -11,9 +11,6 @@ module.exports = {
         transitionTimingFunction: {
           'custom-ease': 'cubic-bezier(0.43, 0.13, 0.23, 0.96)',
         },
-        cursor: {
-          pointer: 'url(./asset//cursor/cursor-fuck-01.svg), pointer',
-        },
       },
       fontFamily: {
         'press-start': ['"Press Start 2P"', 'cursive'],

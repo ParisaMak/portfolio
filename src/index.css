@@ -12,6 +12,3 @@ html{
 body{
     cursor:url("./asset/cursor/cursor-01.svg") 20 20,default;
 }
-a,button ,img{
-    cursor:url("./asset//cursor/cursor-fuck-01.svg") 20 20,pointer;
-}

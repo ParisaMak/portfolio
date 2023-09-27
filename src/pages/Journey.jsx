@@ -57,7 +57,7 @@ const Journey = () => {
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 1, ease: [0.43, 0.13, 0.23, 0.96] }}
                                 >
-                                    <img src={country.img} className="absolute bg-orange border-4 border-white top-0 right-0 z-10 h-full w-full object-top object-cover sm:h-auto sm:scale-75" alt={country.name.toLowerCase()} />
+                                    <img src={country.img} className="absolute bg-orange border-4 border-white top-0 right-0 z-10 h-full w-full object-cover object-center sm:h-auto sm:scale-75" alt={country.name.toLowerCase()} />
                                 </motion.div>
                             )}
                         </div>
